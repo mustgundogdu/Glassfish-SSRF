@@ -57,6 +57,9 @@ On GlassFish version 6.2.5, an attacker can exploit the ```restUrl``` parameter 
 
 ### File Discovery 
 ------------------------------------------------
+An attacker can use the GlassFish server as a proxy and, by listening on the network, perform file discovery within the target web server.
+
+
 **Attacker Ip:** 192.168.81.187
 
 **Glassfish Server Ip:** 192.168.81.129 - Windows Server Glassfish 6.2.5
