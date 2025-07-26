@@ -48,7 +48,7 @@ On GlassFish version 6.2.5, an attacker can exploit the ```restUrl``` parameter 
 ------------------------------------------------
 **Attacker Ip:** 192.168.81.187
 
-**Glassfish Server Ip:** 192.168.81.129 - Ubuntu(researchServer) Server Glassfish 6.2.5 
+**Glassfish Server Ip:** 192.168.81.160 -  Windows Server Glassfish 6.2.5
 
 ![](https://github.com/mustgundogdu/Glassfish-SSRF/blob/main/ss/pathdisclosure.PNG)
 
