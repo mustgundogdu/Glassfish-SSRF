@@ -14,6 +14,9 @@ SSRF (Server-Side Request Forgery) is a vulnerability that allows an attacker to
 - [x] Information disclosure
 - [x] File Discovery
 
+
+### Sample Attack Scenario
+--------------------------------------------
 ![](https://github.com/mustgundogdu/Glassfish-SSRF/blob/main/ss/glassfish%20Scenario.jpg)
 
 On GlassFish version 6.2.5, an attacker can exploit the ```restUrl``` parameter within the admin panel to trigger an SSRF vulnerability. In addition to performing port and subnet enumeration, the attacker can leverage the vulnerable GlassFish server to interact with their own machine listening within the network, leading to further exploitation such as path disclosure and file discovery. This significantly expands the attack surface.
