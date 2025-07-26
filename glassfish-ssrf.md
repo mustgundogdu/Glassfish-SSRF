@@ -2,7 +2,7 @@
 
 SSRF (Server-Side Request Forgery) is a vulnerability that allows an attacker to force the application to send requests from the server to internal or external resources of the attacker's choosing. This can enable the attacker to perform internal port scanning, discover services accessible only from the server, and bypass firewalls to reach otherwise restricted systems.
 
-**Vulnerable Path** : https://[targetexample]:4848/download/log/?contentSourceId=LogViewer&restUrl=https%3A%2F%2Flocalhost%3A4848%2Fmanagement%2Fdomain
+**Vulnerable Path** : https://[targetexample]:4848/download/log/?contentSourceId=LogViewer&restUrl=https%3A%2F%2F[evilpayload]
 
 **Research Os** : Ubuntu 22.04 , Windows Server 2019  
 
